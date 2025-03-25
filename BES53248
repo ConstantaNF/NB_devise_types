@@ -1,0 +1,603 @@
+---
+manufacturer: NetApp
+model: BES53248
+slug: bes53248
+description: Broadcom-supported BES-53248 Cluster Switch
+default_platform: null
+part_number: BES53248
+u_height: 1.0
+is_full_depth: true
+subdevice_role: null
+airflow: null
+weight: null
+weight_unit: null
+comments: "Overview of installation and configuration: \r\n\r\n[https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html](https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html)"
+console-ports:
+- name: con0
+  type: rj-45
+  label: ''
+  description: Console port
+power-ports:
+- name: PSU1
+  type: null
+  maximum_draw: null
+  allocated_draw: null
+  label: PSU1
+  description: ''
+- name: PSU2
+  type: null
+  maximum_draw: null
+  allocated_draw: null
+  label: PSU2
+  description: ''
+interfaces:
+- name: 0/1
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '1'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/2
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '2'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/3
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '3'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/4
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '4'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/5
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '5'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/6
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '6'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/7
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '7'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/8
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '8'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/9
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '9'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/10
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '10'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/11
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '11'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/12
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '12'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/13
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '13'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/14
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '14'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/15
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '15'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/16
+  type: 25gbase-x-sfp28
+  enabled: true
+  mgmt_only: false
+  label: '16'
+  description: 10/25GbE cluster port nodes, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/17
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '17'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/18
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '18'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/19
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '19'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/20
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '20'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/21
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '21'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/22
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '22'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/23
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '23'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/24
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '24'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/25
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '25'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/26
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '26'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/27
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '27'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/28
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '28'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/29
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '29'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/30
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '30'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/31
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '31'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/32
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '32'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/33
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '33'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/34
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '34'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/35
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '35'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/36
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '36'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/37
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '37'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/38
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '38'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/39
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '39'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/40
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '40'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/41
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '41'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/42
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '42'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/43
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '43'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/44
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '44'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/45
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '45'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/46
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '46'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/47
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '47'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/48
+  type: 25gbase-x-sfp28
+  enabled: false
+  mgmt_only: false
+  label: '48'
+  description: 10/25GbE cluster port nodes, with licenses
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/49
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '49'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/50
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '50'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/51
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '51'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/52
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '52'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/53
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '53'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/54
+  type: 100gbase-x-qsfp28
+  enabled: false
+  mgmt_only: false
+  label: '54'
+  description: 40/100GbE cluster port nodes, with licenses, added right to left
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/55
+  type: 100gbase-x-qsfp28
+  enabled: true
+  mgmt_only: false
+  label: '55'
+  description: 100GbE cluster Inter-Switch Link (ISL) ports, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: 0/56
+  type: 100gbase-x-qsfp28
+  enabled: true
+  mgmt_only: false
+  label: '56'
+  description: 100GbE cluster Inter-Switch Link (ISL) ports, base configuration
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: Management port
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
